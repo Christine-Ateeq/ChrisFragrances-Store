@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChrisFragrances Store</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Cormorant+Italic&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <h1>ChrisFragrances Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li>
+                    <a href="cart.html" id="cart-btn" class="active">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <span class="cart-count" id="cart-count">0</span>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-video">
+            <video autoplay muted loop class="hero-video-element">
+                <source src="hello.mp4" type="video/mp4">
+            </video>
+            <div class="video-overlay">
+                <h2>Shop the Best Products Today</h2>
+                <p>Exclusive deals and discounts available now!</p>
+            </div>
+        </section>
+        <section class="featured-products">
+            <h2>Featured Fragrances</h2>
+            <p>Explore our premium collection of perfumes.</p>
+            <div class="product-home">
+                <div class="product" data-id="2">
+                    <img src="eilish1.jpg" alt="Perfume 2">
+                    <h3>Eilish No. 1</h3>
+                    <p>This tantalizing fragrance opens with a sparkling blend of grapefruit, luminous pink peppercorn,
+                        and the rich floralcy of jasmine.</p>
+                    <p><br>$75.00</p>
+                    <button class="add-to-cart" data-id="1" data-name="Eilish No. 1" data-price="75">Add to
+                        Cart</button>
+                </div>
+                <div class="product" data-id="4">
+                    <img src="eilish2.webp" alt="Perfume 3">
+                    <h3>Eilish No. 2</h3>
+                    <p>This opens with the freshness of Italian bergamot and apple blossom. It flows into a woody,
+                        earthy spiciness of papyrus and black pepper with a contrast of wild wet poppy flowers.</p>
+                    <p>$75.00</p>
+                    <button class="add-to-cart" data-id="2" data-name="Eilish No. 2" data-price="75">Add to
+                        Cart</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 ChrisFragrances Store. All rights reserved.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/login/">Facebook</a> |
+            <a href="https://www.instagram.com/">Instagram</a> |
+            <a
+                href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyIiOiIiLCJteCI6IjIifQ%3D%3D%22%7D">Twitter</a>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Cormorant+Italic&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <h1>ChrisFragrances Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li>
+                    <a href="cart.html" id="cart-btn" class="active">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                    <span class="cart-count" id="cart-count">0</span>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="featured-products">
+        <h2>Our Perfumes</h2>
+        <p>Explore our diverse range of perfumes designed for every taste and occasion. Browse through our collection
+            and find your perfect scent.</p>
+        <div class="product-grid">
+            <div class="product">
+                <img src="pexels-vie-studio-7005940.jpg" alt="Perfume 1">
+                <h3>Lavender Bliss</h3>
+                <p>$50 - A calming and soothing scent with hints of fresh lavender and citrus.</p>
+                <button class="add-to-cart" data-id="3" data-name="Lavender Bliss" data-price="50">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="pexels-nediyodukenson-13875786.jpg" alt="Perfume 2">
+                <h3>Vanilla Dream</h3>
+                <p>$65 - Sweet and indulgent, with rich vanilla and a touch of caramel.</p>
+                <button class="add-to-cart" data-id="4" data-name="Vanilla Dream" data-price="65">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="pexels-didsss-1830450.jpg" alt="Perfume 3">
+                <h3>Rose Garden</h3>
+                <p>$55 - Elegant and floral, inspired by the timeless beauty of fresh roses.</p>
+                <button class="add-to-cart" data-id="5" data-name="Rose Garden" data-price="55">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="pexels-karolina-grabowska-8361491.jpg" alt="Perfume 4">
+                <h3>Vertus</h3>
+                <p>$40 - Light and refreshing, with zesty lemon and orange notes.</p>
+                <button class="add-to-cart" data-id="6" data-name="Vertus" data-price="40">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="pexels-francesca-cruccu-484316644-16101860.jpg" alt="Perfume 7">
+                <h3>Spiced Orchid</h3>
+                <p>$70 - A bold mix of orchid, cinnamon, and a dash of exotic spices.</p>
+                <button class="add-to-cart" data-id="7" data-name="Spiced Orchid" data-price="70">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="pexels-lizzy-honey-393939457-18031839.jpg" alt="Perfume 8">
+                <h3>Midnight Forest</h3>
+                <p>$80 - A deep, mysterious scent with notes of pine, cedarwood, and musk.</p>
+                <button class="add-to-cart" data-id="8" data-name="Midnight Forest" data-price="80">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ChrisFragrances Store. All rights reserved.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/login/">Facebook</a> |
+            <a href="https://www.instagram.com/">Instagram</a> |
+            <a
+                href="https://x.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyIiOiIiLCJteCI6IjIifQ%3D%3D%22%7D">Twitter</a>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
