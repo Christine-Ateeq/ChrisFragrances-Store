@@ -470,3 +470,10 @@ button {
     justify-content: center;
     margin-top: 20px;
 }
+
+#search{
+    border-radius: 2px;
+    border-color:  #5e4b3c;
+    text-decoration-color: #5e4b3c;
+    background: #ffff;
+}
