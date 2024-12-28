@@ -87,3 +87,11 @@ $(document).ready(function () {
         renderCartItems();
     }
 });
+
+$('#search').on('input', function () {
+    const searchValue = $(this).val().toLowerCase();
+    $('.product').each(function () {
+        const title = $(this).find('h3').text().toLowerCase();
+        $(this).toggle(title.startsWith(searchValue));
+    });
+});
